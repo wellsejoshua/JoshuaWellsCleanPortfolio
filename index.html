@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+    <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Joshua Wells Portfolio</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--navbar-->
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-light bg-white" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand" href="#">CodedByWells</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reviews">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--hero-->
+    <section id="home" class="bg-cover hero-section" style="background-image: url(img/computer.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="display-4" data-aos="zoom-in">Joshua Wells<br></h1>
+                        <h2>Full Stack Web Developer</h2>
+                    <h6 class="my-4" data-aos="fade-up"><i>I'm a UT Graduate with a B.S. in Biochemistry and freelancer based in Austin, Tx. I build secure user-friendly websites and web applications.<br> I help convert a vision and an idea into a meaningful and useful product. 
+                        Having a sharp eye for product evolution helps me prioritize tasks, iterate fast, and deliver faster.</i></h6>
+                    <a href="#contact" data-aos="fade-up" class="btn btn-main">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--services-->
+    <section id="services" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>My Services</h1>
+                    <div class="divider"></div>
+                    <p>I develop web applications focused on solving problems to achieve the overall goal.<br>
+
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_1.jpg" alt="">
+                            <div class="icon"><i class="icon-browser"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4">.NET MVC Applications</h5>
+                        <p>Developement of clean responsive .NET MVC Applications geared towards solving consumer problems.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_2.jpg" alt="">
+                            <div class="icon"><i class="icon-bargraph"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4">LINQ/PostgresSQL</h5>
+                        <p>Use a "Code First Design Pattern" to create a concise managable codebase and database with flexibility that will scale with your needs.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="zoom-in">
+                    <div class="service">
+                        <div class="service-img">
+                            <img src="img/image_3.jpg" alt="">
+                            <div class="icon"><i class="icon-aperture"></i></div>
+                        </div>
+                        <h5 class="mt-5 pt-4"> Web Design</h5>
+                        <p>Utilization of current design trends to produce modern sleek designs utilizing javascript, css, html, and third party libraries. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-->
+    <section id="about" class="bg-cover" style="background-image: url(img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Learn About Me</h1>
+                    <div class="divider"></div>
+                    <p>I enjoy tackling complex problems, breaking problems down into more manageable simple building blocks, and producing solutions. This drive has led me to build several projects acquiring new skills along the way. I invite you to explore the projects below that catalog my development as a web developer.
+                    </p>
+                    <a href="#" class="video-btn"><i class='bx bx-play'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+    <section id="features" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Projects</h1>
+                    <div class="divider"></div>
+                    <p>A few projects displaying my abilities. The MVC Applications were made in .NET 6(LTS).<br>
+                         I am currently working on .NET 7 projects(STS). I have experience with .NET 5 as well.
+                    </p>
+                </div>
+            </div>
+            <div class="row gx-4 gy-5">
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <a href="https://dragonflybugtracker.up.railway.app/" target="_blank"> <img src="/img/DragonflyLogo680px.png" alt="Dragonfly Bugtracker Logo"></a</div>
+                    <h5 class="mt-4 mb-3"><a href="https://dragonflybugtracker.up.railway.app/" target="_blank">DragonFly BugTracker</a></h5>
+                    <p>A MVC .NET application for tracking and resolving bugs in code. Assign project managers to oversee a project and developers to produce solutions. Open and close out tickets as your project progresses. </p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div><a href="https://grouptapp.up.railway.app/" target="_blank"><img src="/img/grouptLogo.png" alt="Groupt Logo"></a></div>
+                    <h5 class="mt-4 mb-3"><a href="https://grouptapp.up.railway.app/" target="_blank">Groupt</a></h5>
+                    <p>A MVC .NET application for grouping contacts together and sending mass emails based on categories and friend groups. Organize your events by keeping everyone in the loop. Experience the power of Groupt! </p>
+                </div>
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div><a href="https://danielfears.com/" target="_blank"><img src="/img/portfolioFears680.png" alt="Daniel Fears Logo"></a></div>
+                    <h5 class="mt-4 mb-3"><a href="https://danielfears.com/" target="_blank">Daniel Fears Website</a></h5>
+                    <p>A website created for a local Austin R&B Musician. This website was created utilizing javascript, ajax, html, and css. Youtube and Spotify embeds were used to integrate music content. </p>
+                </div>
+                <!--
+                <div class="col-md-4 feature" data-aos="fade-up">
+                    <div class="icon"><i class="icon-calendar"></i></div>
+                    <h5 class="mt-4 mb-3"><a href="https://danielfears.com/" target="_blank">Daniel Fears Website</a></h5>
+                    <p>A website created for a local Austin R&B Musician. This website was created utilizing javascript, ajax, html, and css. Youtube and Spotify embeds were used to integrate music content. </p>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+    <!--counters-->
+    <!--
+    <section class="bg-cover" style="background-image: url(img/cover_2.jpg);">
+        <div class="overlay"></div>
+        <div class="container text-white text-center">
+            <div class="row gy-4" data-aos="fade-up">
+                <div class="col-md-3">
+                    <i class="icon-trophy h1"></i>
+                    <h1 class="mt-3 mb-2">45,00</h1>
+                    <p></p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-camera h1"></i>
+                    <h1 class="mt-3 mb-2">120k</h1>
+                    <p></p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-happy h1"></i>
+                    <h1 class="mt-3 mb-2">30M+</h1>
+                    <p></p>
+                </div>
+                <div class="col-md-3">
+                    <i class="icon-paintbrush h1"></i>
+                    <h1 class="mt-3 mb-2">4,005</h1>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+    <!--reviews-->
+    <section id="reviews" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Technologies</h1>
+                    <div class="divider"></div>
+                    <p>Evolution as a developer is the goal. I spend time throughout my week diving deeper into .NET Core, C#, Javascript,<br>
+                        My current endevour is learning to merge a C# backend with a React front.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-4 text-start">
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>.NET Core</h4>
+                    <div class="reviewIcons">   
+                        <i class="devicon-dotnetcore-plain"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>C#</h4>
+                    <div class="reviewIcons">
+                        <i class="devicon-csharp-plain"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>Javascript</h4>
+                    <div class="reviewIcons">
+                        <i class="devicon-javascript-plain"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>.NET Core</h4>
+                    <div class="reviewIcons">
+                        <i class="devicon-adonisjs-original"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>HTML</h4>
+                    <div class="reviewIcons">
+                        <i class="devicon-html5-plain"></i>
+                    </div>
+                </div>
+                <div class="col-md-2 text-center" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                    <h4>Git</h4>
+                    <div class="reviewIcons">
+                        
+                      <i class="devicon-git-plain"></i>
+          
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!--
+            <div class="row g-4 text-start">
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_1.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">C# Logo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_2.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Microsoft .Net Logo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_3.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Postgres SQL Logo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_2.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">Ajax logo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_1.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">HTML/CSS logos</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up">
+                    <div class="review p-4">
+                        <div class="person">
+                            <img src="img/avatar_3.jpg" alt="">
+                            <div class="text ms-3">
+                                <h6 class="mb-0">BootStrap Logo</h6>
+                                <small>Google</small>
+                            </div>
+                        </div>
+                        <p class="pt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected</p>
+                        <div class="stars">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+        </div>
+    </section>
+
+    <!--blog-->
+    <!--
+    <section id="blog" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Our Blog Posts</h1>
+                    <div class="divider"></div>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                        suffered<br>
+                        alteration in some form, by injected humour, or randomised words which don't look even slightly
+                    </p>
+                </div>
+            </div>
+            <div class="row text-start">
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post1.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Web Design</a>, 15th Dec 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2022</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post2.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Web Design</a>, 22th Dec 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2022</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <img src="img/blog_post3.png" alt="">
+                    <div class="mt-4">
+                        <small>Posted in <a href="#">Web Design</a>, 30th Dec 2022</small>
+                        <h5 class="mt-1 mb-2"><a href="#">Website design in 2022</a></h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis aperiam unde officiis?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!--contact-->
+    <section id="contact" class="bg-cover text-white" style="background-image: url(img/cover_3.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center" data-aos="fade-up">
+                    <h1>Get in touch</h1>
+                    <div class="divider"></div>
+                    <p>Feel free to contact me anytime.
+                        <br> Together lets turn your ideas into reality.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 mx-auto" data-aos="fade-up">
+                    <form action="#" class="row g-4">
+                        <div class="form-group col-md-6">
+                            <i class='fas fa-user'></i>
+                            <input type="text" class="form-control" placeholder="Full Name (Required)">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <i class='fas fa-envelope'></i>
+                            <input type="email" class="form-control" placeholder="Email Address (Required)">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <i class='fas fa-phone-alt'></i>
+                            <input type="phone" class="form-control" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <i class='fas fa-globe'></i>
+                            <input type="text" class="form-control" placeholder="Website">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <i class='fas fa-edit'></i>
+                            <input type="text" class="form-control" placeholder="Subject (Required)">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <i class="material-icons">message</i>
+                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message (Required)"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button class="btn btn-main" type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="m-0">Copyright © 2022. CodedByWells</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end m-0">
+                    <div>
+                        <a href="https://www.linkedin.com/in/joshua-wells-b7274224a/"><i class="devicon-linkedin-plain"></i></i></a>
+                        <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
